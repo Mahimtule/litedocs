@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.0",
+    "@radix-ui/react-dialog": "^1.1.1",
     "axios": "^1.7.4",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "jsm-editor": "^0.0.12",
     "lucide-react": "^0.429.0",
     "mongoose": "^8.5.3",
     "next": "14.2.6",
