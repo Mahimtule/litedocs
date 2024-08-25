@@ -26,10 +26,10 @@ const NewDocumentModal = () => {
         </DialogHeader>
         <form className="w-full flex flex-col justify-center items-start gap-3">
           <label>Document Title</label>
-          <input className="input" type="text"/>
-          <label>Description</label>
-          <textarea className="input" />
-          <button className="mt-2 btn btn_primary" type="submit">create</button>
+          <input className="input" type="text" />
+          <button className="mt-2 btn btn_primary" type="submit">
+            create
+          </button>
         </form>
       </DialogContent>
     </Dialog>

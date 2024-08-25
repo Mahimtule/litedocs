@@ -1,0 +1,27 @@
+/* Toolbar button styling */
+.ql-toolbar .ql-formats button .ql-stroke,
+.ql-toolbar .ql-formats button .ql-fill {
+  stroke: white; /* Change stroke color for icons */
+}
+
+/* Dropdown label color */
+.ql-toolbar .ql-picker-label {
+  color: white; /* Change picker label to white */
+}
+
+/* Dropdown background and text color */
+.ql-toolbar .ql-picker-options {
+  background-color: #0a2540;
+  color: white;
+}
+
+.ql-toolbar {
+  border: 0 !important;
+  margin-bottom: 8px;
+  /* background: #0a2540; */
+}
+
+.ql-container {
+  border: 0 !important;
+  background: #051120;
+}
