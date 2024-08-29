@@ -1,4 +1,5 @@
 import SessionWrapper from "@/components/SessionWrapper";
+import { Toaster } from "@/components/ui/toaster";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -18,7 +19,10 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className={inter.className}>
-        <SessionWrapper>{children}</SessionWrapper>
+        <SessionWrapper>
+          {children}
+          <Toaster />
+        </SessionWrapper>
       </body>
     </html>
   );

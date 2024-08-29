@@ -1,0 +1,6 @@
+GET all doc "/api/v1/document"
+POST
+
+PUT "/api/v1/document/[id]"
+DELETE 
+GET one document
